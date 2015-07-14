@@ -9,6 +9,10 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+iframe {
+    width: 100%;
+}
+
 .text-muted {
     color: #777;
 }
@@ -308,7 +312,6 @@ header .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
-        height: 40px;
     }
 
     header .intro-text .intro-heading {
@@ -332,7 +335,6 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
@@ -353,14 +355,12 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item {
     right: 0;
-    margin: 0 0 15px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -401,7 +401,6 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 25px;
-    max-width: 400px;
     text-align: center;
     background-color: #fff;
 }
@@ -424,7 +423,6 @@ section h3.section-subheading {
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
-        margin: 0 0 30px;
     }
 }
 
